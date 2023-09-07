@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/QRCSA/static/css/main.82504dfb.css",
-    "main.js": "/QRCSA/static/js/main.9f31952e.js",
+    "main.js": "/QRCSA/static/js/main.dc863972.js",
     "static/js/787.92bc5697.chunk.js": "/QRCSA/static/js/787.92bc5697.chunk.js",
     "index.html": "/QRCSA/index.html",
     "main.82504dfb.css.map": "/QRCSA/static/css/main.82504dfb.css.map",
-    "main.9f31952e.js.map": "/QRCSA/static/js/main.9f31952e.js.map",
+    "main.dc863972.js.map": "/QRCSA/static/js/main.dc863972.js.map",
     "787.92bc5697.chunk.js.map": "/QRCSA/static/js/787.92bc5697.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82504dfb.css",
-    "static/js/main.9f31952e.js"
+    "static/js/main.dc863972.js"
   ]
 }
