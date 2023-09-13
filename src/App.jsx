@@ -7,7 +7,7 @@ const App = () => {
 		<>
 			<Navbar />
 
-			<div id="detail" className="container mx-auto">
+			<div id="detail" className="tw-container tw-mx-auto tw-px-4">
 				<Outlet />
 			</div>
 		</>

@@ -9,18 +9,24 @@ const Navbar = () => {
 	};
 
 	const navLinks = [
-		{text: "QRCode Scanner", url: "/"}, // /qrcodescanner
+		{text: "Home", url: "/"},
+		{text: "Html5-QRCode 1", url: "/html5qrcode1"},
+		{text: "Html5-QRCode 2", url: "/html5qrcode2"},
+		{text: "Zxing", url: "/zxing"},
+		{text: "ZxingWithModal",url: "/zxingwithmodal"},
+		{text: "ZxingNestedModal",url: "/zxingnestedmodal"},
+		// {text: "ZxingNestedModal2",url: "/zxingnestedmodal2"},
 		{text: "Other", url: "/other"},
 	];
 
 	return (
-		<nav className="bg-blue-500 p-4">
-			<div className="flex justify-between items-center">
-				<div className="text-white font-bold text-xl">My Website</div>
-				<div className="md:hidden">
-					<button onClick={toggleNav} className="text-white">
+		<nav className="tw-bg-blue-500 tw-p-4">
+			<div className="tw-flex tw-justify-between tw-items-center">
+				<div className="tw-text-white tw-font-bold tw-text-xl">My Website</div>
+				<div className="md:tw-hidden">
+					<button onClick={toggleNav} className="tw-text-white">
 						<svg
-							className="w-6 h-6"
+							className="tw-w-6 tw-h-6"
 							fill="none"
 							stroke="currentColor"
 							viewBox="0 0 24 24"
@@ -33,18 +39,18 @@ const Navbar = () => {
 						</svg>
 					</button>
 				</div>
-				<div className="hidden md:flex space-x-4">
+				<div className="tw-hidden md:tw-flex tw-space-x-4">
 					{navLinks.map((link, index) => (
-						<Link key={index} to={link.url} className="text-white hover:text-gray-300">
+						<Link key={index} to={link.url} className="tw-text-white hover:tw-text-gray-300">
 							{link.text}
 						</Link>
 					))}
 				</div>
 			</div>
 			{isNavOpen && (
-				<div className="md:hidden mt-2">
+				<div className="md:tw-hidden tw-mt-2">
 					{navLinks.map((link, index) => (
-						<Link key={index} to={link.url} className="block text-white py-2">
+						<Link key={index} to={link.url} className="tw-block tw-text-white tw-py-2">
 							{link.text}
 						</Link>
 					))}
