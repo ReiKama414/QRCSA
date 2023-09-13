@@ -9,20 +9,20 @@ const Navbar = () => {
 	};
 
 	const navLinks = [
-		{text: "Home", url: "/"},
-		{text: "Html5-QRCode 1", url: "/html5qrcode1"},
-		{text: "Html5-QRCode 2", url: "/html5qrcode2"},
-		{text: "Zxing", url: "/zxing"},
-		{text: "ZxingWithModal",url: "/zxingwithmodal"},
-		{text: "ZxingNestedModal",url: "/zxingnestedmodal"},
+		// {text: "Home", url: "/"},
+		// {text: "Html5-QRCode 1", url: "/html5qrcode1"},
+		// {text: "Html5-QRCode 2", url: "/html5qrcode2"},
+		// {text: "Zxing", url: "/zxing"},
+		{text: "ZxingWithModal",url: "/"}, // /zxingwithmodal
+		// {text: "ZxingNestedModal",url: "/zxingnestedmodal"},
 		// {text: "ZxingNestedModal2",url: "/zxingnestedmodal2"},
-		{text: "Other", url: "/other"},
+		// {text: "Other", url: "/other"},
 	];
 
 	return (
 		<nav className="tw-bg-blue-500 tw-p-4">
 			<div className="tw-flex tw-justify-between tw-items-center">
-				<div className="tw-text-white tw-font-bold tw-text-xl">My Website</div>
+				<div className="tw-text-white tw-font-bold tw-text-xl">Demo Scanner</div>
 				<div className="md:tw-hidden">
 					<button onClick={toggleNav} className="tw-text-white">
 						<svg

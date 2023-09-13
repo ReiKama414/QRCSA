@@ -19,12 +19,10 @@ const ZxingModal = ({show, setShow, setOutput}) => {
 			<Modal.Header closeButton>
 				<Modal.Title>Modal Test</Modal.Title>
 			</Modal.Header>
-			<Modal.Body style={{height: "80vh"}}>
-				<div className="position-absolute d-flex flex-column justify-content-center top-0 start-0 w-100 h-100 bg-light">
+			<Modal.Body>
+				<div className="position-relative">
 					{/* QrCodeScanner */}
-					<div className="position-absolute">
-						<QrCodeScanner setResult={setResult} />
-					</div>
+					<QrCodeScanner setResult={setResult} />
 
 					{/* Result */}
 					{result && (

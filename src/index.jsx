@@ -24,7 +24,8 @@ const router = createBrowserRouter(
 			children: [
 				{
 					index: true,
-					element: <Home />,
+					// element: <Home />,
+					element: <ZxingWithModal />,
 				},
 				{
 					path: "/html5qrcode1",
