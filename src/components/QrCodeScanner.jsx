@@ -29,7 +29,6 @@ const QrCodeScanner = ({classNames = "", setResult}) => {
 	});
 
 	useEffect(() => {
-		// Canvas1 => 1:1 light area, Canvas2 => Background (Video)
 		const [canvas1, canvas2] = [canvas1Ref.current, canvas2Ref.current];
 		const [context1, context2] = [canvas1.getContext("2d"), canvas2.getContext("2d")];
 
